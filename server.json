@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.flatearthscience/flatearthscience-org",
+  "title": "Flat Earth Science",
+  "description": "Earth curvature, horizon, flight, Sun and daylight calculators plus tested flat-earth claims.",
+  "version": "1.0.1",
+  "websiteUrl": "https://flatearthscience.org",
+  "repository": {
+    "url": "https://github.com/pyxlino/flatearthscience-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://flatearthscience.org/mcp/icons/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://flatearthscience.org/mcp/icons/icon-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    },
+    {
+      "src": "https://flatearthscience.org/mcp/icons/icon-128.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "128x128"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flatearthscience.org/api/mcp"
+    }
+  ]
+}
